@@ -1,7 +1,7 @@
 Shopware 4 Varnish Configuration
 ================================
 
-## Achtung
+## Attention
 Please note that Varnish configuration is supported and enabled exclusively by shopware AG’s Enterprise platforms.
 
 Operating Varnish with other Shopware editions is neither possible nor guaranteed.
