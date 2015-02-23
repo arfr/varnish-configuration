@@ -7,7 +7,7 @@ Please note that Varnish configuration is supported and enabled exclusively by s
 Operating Varnish with other Shopware editions is neither possible nor guaranteed.
 
 ## Requirements
-This configuration requires at least version 3.0 of Varnish and at lease version 4.1 of shopware.
+This configuration requires at least version 4.0 of Varnish and at lease version 4.3 of shopware.
 
 ## Shopware configuration
 
