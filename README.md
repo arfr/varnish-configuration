@@ -7,7 +7,7 @@ Please note that Varnish configuration is supported and enabled exclusively by s
 Operating Varnish with other Shopware editions is neither possible nor guaranteed.
 
 ## Requirements
-This configuration requires at least version 4.0 of Varnish and at lease version 4.3 of shopware.
+This configuration requires at least version 4.0 of Varnish and at least version 4.3.3 of shopware.
 
 ## Shopware configuration
 
@@ -18,6 +18,15 @@ The PHP-based reverse proxy has to be disabled. To disable add the following sec
 'httpCache' => array(
     'enabled' => false,
 ),
+```
+
+### Configure trusted proxies
+If you have a reverse proxy in front of your shopware installation you have to set the IP of the proxy in the `trustedProxies` section in your `config.php`:
+
+```
+'trustedProxies' => array(
+    '127.0.0.1'
+)
 ```
 
 ### Enable cache plugin
