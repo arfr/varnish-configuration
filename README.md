@@ -1,4 +1,4 @@
-Shopware 4 Varnish Configuration
+Shopware Varnish Configuration
 ================================
 
 ## Attention
