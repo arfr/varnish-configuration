@@ -129,6 +129,10 @@ sub vcl_hash {
     } else {
         hash_data("+currency=1");
     }
+    
+    if (req.http.cookie ~ "x-cache-context-hash=") {
+        hash_data("+context=" + regsub(req.http.cookie, "^.*?x-cache-context-hash=([^;]*);*.*$", "\1"));
+    }
 }
 
 sub vcl_hit {
