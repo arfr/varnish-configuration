@@ -1,1 +1,1 @@
-This repository has been moved to https://github.com/shopwareLabs/varnish-configuration.
+This repository has been moved to https://developers.shopware.com/sysadmins-guide/varnish-setup/.
